@@ -49,15 +49,10 @@
 
 	<distributionManagement>
 		<repository>
-			<id>local-nexus</id>
-			<layout>default</layout>
-			<url>http://nexus/repository/maven-releases/</url>
+			<id>github</id>
+			<name>GitHub Packages</name>
+			<url>https://maven.pkg.github.com/RemcoMusic/vehicle-inventory-backend</url>
 		</repository>
-		<snapshotRepository>
-			<id>local-nexus</id>
-			<layout>default</layout>
-			<url>http://nexus/repository/maven-snapshots/</url>
-		</snapshotRepository>
 	</distributionManagement>
 
 </project>
